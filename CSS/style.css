@@ -7,6 +7,15 @@ p,a {
     font-family: 'ASAP', sans-serif;
 }
 
+img {
+    max-width: 800px;
+}
+
+.text-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 h1 {
     display: flex;
