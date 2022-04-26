@@ -15,7 +15,7 @@ const chapterList = [
         ID: "2",
         chapterName: "Chapter-1",
         titleImage: "ange.jpg",
-        chapterImages: []
+        chapterImages: ["emi6.jpg"]
     }
 
 ]
