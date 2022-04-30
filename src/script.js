@@ -1,3 +1,4 @@
+//this is a list of all the chapters so I can reference them later
 const chapterList = [
     {
         ID: "0",
@@ -19,16 +20,19 @@ const chapterList = [
     }
 
 ]
-
+//this gathers the areas where I want to put the comics
 chapterGallery = document.getElementById("art-pieces")
 chapterArea = document.getElementById("highlighted-art")
+
+//this function is used to load all the chapters so that the user is able to pick which one to read
 function loadChapters(chapterList){
     for (let chapter in chapterList){
         currentChapter = chapterList[chapter]
         chapterGallery.innerHTML += `<div class=${currentChapter.ID}><img class=${currentChapter.ID} src="images/${currentChapter.titleImage}"></div>`
     }
 }
-  
+
+//this function loads the specific chapter that the user clicked on
 function chapterView(evt){
     console.log("hi")
     index = parseInt(evt.target.className)
@@ -43,7 +47,8 @@ function chapterView(evt){
     btn.addEventListener("click", startup)
     chapterGallery.innerHTML = ''
 }
-  
+
+//this function is used to make sure that everything is run on starting the website
 function startup(){
     chapterArea.innerHTML = ""
     loadChapters(chapterList)
