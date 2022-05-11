@@ -74,6 +74,16 @@ li > p {
     margin: 10px;
 }
 
+#individual_chapter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#individual_chapter button {
+    width: 20%;
+}
+
 #individual_chapter div{
     display: flex;
     flex-direction: row;

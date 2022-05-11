@@ -37,12 +37,13 @@ function chapterView(evt){
     console.log("hi")
     index = parseInt(evt.target.className)
     chapter = chapterList[index]
-    chapterArea.innerHTML = `<div id="individual_chapter"><button><span aria-hidden="true">Close here</span></button></div>`
+    chapterArea.innerHTML = `<div id="individual_chapter"></div>`
     currentChapter = document.getElementById("individual_chapter")
     for (let image in chapter.chapterImages){
         console.log(chapter.chapterImages[image])
         currentChapter.innerHTML += `<img src="images/${chapter.chapterImages[image]}">`
     }
+    currentChapter.innerHTML += '<button><span aria-hidden="true">Close here</span></button>'
     btn = document.querySelector("button")
     btn.addEventListener("click", startup)
     chapterGallery.innerHTML = ''
