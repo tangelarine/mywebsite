@@ -8,13 +8,13 @@ const chapterList = [
     },
     {
         ID: "1",
-        chapterName: "Chapter-1",
+        chapterName: "Chapter-2",
         titleImage: "wires.jpg",
         chapterImages: ["emi4.png", "emi5.png"]
     },
     {
         ID: "2",
-        chapterName: "Chapter-1",
+        chapterName: "Chapter-3",
         titleImage: "ange.jpg",
         chapterImages: ["emi6.jpg"]
     }
