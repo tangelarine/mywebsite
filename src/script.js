@@ -46,7 +46,7 @@ chapterArea = document.getElementById("highlighted-art")
 function loadChapters(chapterList){
     for (let chapter in chapterList){
         currentChapter = chapterList[chapter]
-        chapterGallery.innerHTML += `<div class=${currentChapter.ID}><img class=${currentChapter.ID} src="images/${currentChapter.titleImage}"></div>`
+        chapterGallery.innerHTML += `<div class=${currentChapter.ID}></div>`
     }
 }
 
