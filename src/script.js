@@ -4,19 +4,37 @@ const chapterList = [
         ID: "0",
         chapterName: "Chapter-1",
         titleImage: "dabloons.png",
-        chapterImages: ["emi1.png", "emi2.png", "emi3.png"]
+        chapterImages: ["emi11.png", "emi12.png", "emi13.png"]
     },
     {
         ID: "1",
         chapterName: "Chapter-2",
         titleImage: "wires.jpg",
-        chapterImages: ["emi4.png", "emi5.png"]
+        chapterImages: ["emi21.png", "emi22.png", "emi23.png","emi24.png"]
     },
     {
         ID: "2",
         chapterName: "Chapter-3",
         titleImage: "ange.jpg",
-        chapterImages: ["emi6.jpg"]
+        chapterImages: ["emi31.png","emi32.png","emi33.png"]
+    },
+    {
+        ID: "3",
+        chapterName: "Chapter-4",
+        titleImage: "wires.jpg",
+        chapterImages: ["emi41.png", "emi42.png","emi43.png","emi44.png","emi46.png","emi47.png"]
+    },
+    {
+        ID: "4",
+        chapterName: "Chapter-5",
+        titleImage: "wires.jpg",
+        chapterImages: ["emi51.png", "emi52.png","emi53.png","emi54.PNG","emi55.jpg"]
+    },
+    {
+        ID: "5",
+        chapterName: "Chapter-6",
+        titleImage: "wires.jpg",
+        chapterImages: ["emi61.png", "emi62.png","emi63.png","emi64.png","emi65.png","emi66.jpg"]
     }
 
 ]
