@@ -4,7 +4,7 @@ const chapterList = [
         ID: "0",
         chapterName: "Chapter-1",
         titleImage: "dabloons.png",
-        chapterImages: ["emi11.png", "emi12.png", "emi13.png"]
+        chapterImages: ["emi11.png", "emi12.png", "emi13.png","emi14.png"]
     },
     {
         ID: "1",
@@ -34,7 +34,7 @@ const chapterList = [
         ID: "5",
         chapterName: "Chapter-6",
         titleImage: "wires.jpg",
-        chapterImages: ["emi61.png", "emi62.png","emi63.png","emi64.png","emi65.png","emi66.jpg"]
+        chapterImages: ["emi61.png", "emi62.png","emi63.png","emi64.png","emi65.png","emi66.JPG"]
     }
 
 ]
